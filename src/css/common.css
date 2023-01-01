@@ -10,9 +10,55 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 30px;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+#datetime-picker {
+  height: 30px;
+  border-radius: 4px;
+  padding: 15px 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  box-shadow: 8px 8px 8px 0px #252070;
+}
+
+button[data-start],
+button[data-stop] {
+  padding: 7px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 6px 6px 6px 0px #252070;
+}
+
+.timer {
+  display: flex;
+  gap: 40px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 46px;
+  text-shadow: 3px 3px 5px #7d6e6a;
+
+  text-align: center;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  text-align: center;
+  text-shadow: 3px 3px 3px grey;
 }
