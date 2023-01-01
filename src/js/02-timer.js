@@ -54,6 +54,7 @@ const options = {
 
         if (Math.floor(diff / 1000) === 0) {
           clearInterval(id);
+          Notiflix.Notify.info('time is over');
         }
       }, 1000);
     }
